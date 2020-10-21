@@ -16,7 +16,7 @@ const Profile = (props) => {
                 <p><strong>Gender:</strong> {gender}</p>
                 <p><strong>Country:</strong><small> {country}</small></p>
                 <p><strong>Email:</strong><small> {email}</small></p>
-                 <p><strong>Salary</strong>:{salary}</p>
+                 <p><strong>Salary</strong>:${salary}</p>
                 <h2>{cell}</h2>
             </div>
             

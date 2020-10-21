@@ -12,7 +12,7 @@ const Cart = (props) => {
     return (
         <div>
             <h1>New Friend:{friends.length}</h1>
-            <h1>Total Salaries:$ {totalSalaries}</h1>
+            <h1>Total Salaries:${totalSalaries}</h1>
         </div>
     );
 };
