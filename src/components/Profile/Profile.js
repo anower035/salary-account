@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee, faUserPlus } from '@fortawesome/free-solid-svg-icons'
 import './Profile.css';
 
 const Profile = (props) => {
@@ -9,7 +11,7 @@ const Profile = (props) => {
         <div className='main'>
             <div className='img-holder'>
                 <img src={image} alt="" />
-                <button onClick={() => handleAddSalary(props.person)}>Add Friend</button>
+                <button onClick={() => handleAddSalary(props.person)}><FontAwesomeIcon icon={faUserPlus} />Add Friend</button>
             </div>
             <div className='text'>
                 <h2>{name}</h2>

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Cart.css';
 const Cart = (props) => {
     const friends=props.friends;
     console.log(friends)
@@ -10,9 +10,10 @@ const Cart = (props) => {
     //    totalSalaries=totalSalaries+money.salary
     // }
     return (
-        <div>
-            <h1>New Friend:{friends.length}</h1>
-            <h1>Total Salaries:${totalSalaries}</h1>
+        <div className="Cart">
+            <h1>Friend list of New Person</h1>
+            <p><small>New Friend:</small> {friends.length}</p>
+            <p><small>Total Salaries:$</small> {totalSalaries}</p>
         </div>
     );
 };
